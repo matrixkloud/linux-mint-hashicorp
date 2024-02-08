@@ -1,5 +1,6 @@
 # linux-mint-hashicorp
 
+```
 ## Download HashiCorp GPG key and save it to the keyring
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 
@@ -8,3 +9,4 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 
 ## Update package lists and install Vagrant
 sudo apt update && sudo apt install vagrant && apt install terraform
+```
